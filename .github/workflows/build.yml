@@ -3,7 +3,7 @@ import textwrap
 
 p = Path("/mnt/data/OooSquareCrawl-Phone-Build-Workflow.yml")
 p.write_text(textwrap.dedent("""\
-name: Build Ooo Square Crawl APK
+name: Build Ooo Square Crawl
 
 on:
   workflow_dispatch:
